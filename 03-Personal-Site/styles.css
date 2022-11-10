@@ -16,8 +16,27 @@ body {
   padding: 0;
   border: 0;
   background-color: red;
-  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='32px' height='32px' viewBox='0 0 32 32' aria-hidden='true' role='img' class='iconify iconify--emojione' preserveAspectRatio='xMidYMid meet'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23ed4c5c'/%3E%3C/svg%3E%0A"),
-    auto;
+}
+
+h1 {
+  font-family: "Poiret One", cursive;
+  font-size: 5rem;
+  color: black;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 200;
+  font-size: 3rem;
+  color: white;
+}
+
+h3 {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  color: white;
 }
 
 .beginning {
@@ -33,30 +52,14 @@ body {
     auto;
 }
 
-h1 {
-  font-family: "Poiret One", cursive;
-  font-size: 5rem;
-  color: black;
-  margin-top: 0;
-}
-
 .designer {
   font-size: 2rem;
   color: #ed4c5c;
 }
 
-h2 {
-  font-family: "Tajawal", sans-serif;
-  font-weight: 200;
-  font-size: 3rem;
-  color: white;
-}
-
-h3 {
-  font-family: "Tajawal", sans-serif;
-  font-weight: 200;
-  font-size: 2rem;
-  color: white;
+main {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='32px' height='32px' viewBox='0 0 32 32' aria-hidden='true' role='img' class='iconify iconify--emojione' preserveAspectRatio='xMidYMid meet'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23ed4c5c'/%3E%3C/svg%3E%0A"),
+    auto;
 }
 
 .content-container {
