@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: red;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='32px' height='32px' viewBox='0 0 32 32' aria-hidden='true' role='img' class='iconify iconify--emojione' preserveAspectRatio='xMidYMid meet'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23ed4c5c'/%3E%3C/svg%3E%0A"),
+    auto;
+}
+
+.beginning {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  cursor: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNDBweCIgaGVpZ2h0PSIyNnB4IiB2aWV3Qm94PSIwIDAgNDAgMjYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQxLjEgKDM1Mzc2KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5TaGFwZTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwb2x5Z29uIGlkPSJTaGFwZSIgZmlsbD0iIzAwMDAwMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjAuMDAwMDAwLCAxMi44MDIwMDApIHNjYWxlKC0xLCAxKSB0cmFuc2xhdGUoLTIwLjAwMDAwMCwgLTEyLjgwMjAwMCkgIiBwb2ludHM9IjI3LjE5OCAyNS42MDQgMzkuNDk0IDEzLjMwOCA0MCAxMi44MDIgMzkuNDk0IDEyLjI5NiAyNy4xOTggMCAyNi4xODUgMS4wMTIgMzcuMjYgMTIuMDg2IDAgMTIuMDg2IDAgMTMuNTE4IDM3LjI2IDEzLjUxOCAyNi4xODUgMjQuNTkyIj48L3BvbHlnb24+CiAgICA8L2c+Cjwvc3ZnPg=="),
+    auto;
+}
+
+h1 {
+  font-family: "Poiret One", cursive;
+  font-size: 5rem;
+  color: black;
+  margin-top: 0;
+}
+
+.designer {
+  font-size: 2rem;
+  color: #ed4c5c;
+}
+
+h2 {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 200;
+  font-size: 3rem;
+  color: white;
+}
+
+h3 {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  color: white;
+}
+
+.content-container {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  padding: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  max-width: 1400px;
+}
+
+.creative {
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.art {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 15px;
+}
+
+.doodle {
+  width: 300px;
+  height: 305px;
+}
+
+footer {
+  background-color: white;
+  height: 400px;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' width='45.743px' height='45.743px' viewBox='0 0 45.743 45.743' style='enable-background:new 0 0 45.743 45.743;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M34.199,3.83c-3.944,0-7.428,1.98-9.51,4.997c0,0-0.703,1.052-1.818,1.052c-1.114,0-1.817-1.052-1.817-1.052 c-2.083-3.017-5.565-4.997-9.51-4.997C5.168,3.83,0,8.998,0,15.376c0,1.506,0.296,2.939,0.82,4.258 c3.234,10.042,17.698,21.848,22.051,22.279c4.354-0.431,18.816-12.237,22.052-22.279c0.524-1.318,0.82-2.752,0.82-4.258 C45.743,8.998,40.575,3.83,34.199,3.83z'/%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E"),
+    auto;
+}
+
+.thank-you {
+  padding-top: 150px;
+  color: #ed4c5c;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 3rem;
+}
