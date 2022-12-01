@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+body {
+  background-color: hsl(185, 41%, 84%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 800px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 60px;
+  padding: 25px;
+  display: flex;
+  gap: 30px;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.right-side {
+  flex: 1;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 20px;
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(183, 100%, 15%);
+  margin: 0;
+}
+
+h3 {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 15px;
+  color: hsl(186, 14%, 43%);
+  margin: 0;
+}
+
+.bill-section div {
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  margin: 10px 0 30px;
+}
+
+.left-side button {
+  border: none;
+  border-radius: 4px;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.tip-button {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 15px;
+}
+
+.left-side input {
+  min-width: 10px;
+  border: none;
+  background-color: hsl(189, 41%, 97%);
+}
+
+.left-side input::placeholder {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(186, 14%, 43%);
+  position: absolute;
+  left: 10px;
+  border-radius: 4px;
+}
+.left-side input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
